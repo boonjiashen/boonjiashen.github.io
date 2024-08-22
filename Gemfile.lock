@@ -279,7 +279,7 @@ GEM
       ffi (~> 1.0)
     reverse_markdown (1.4.0)
       nokogiri
-    rexml (3.3.3)
+    rexml (3.3.6)
       strscan
     rouge (3.26.0)
     ruby2_keywords (0.0.5)
