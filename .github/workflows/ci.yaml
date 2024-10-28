@@ -1,0 +1,19 @@
+name: ci
+
+on:
+  push:
+  schedule:
+    - cron: '0 0 * * 1' # Every Monday at 00:00 UTC (9 AM JST)
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true # runs bundle, caches gems between builds

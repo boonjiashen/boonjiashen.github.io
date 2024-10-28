@@ -2,7 +2,7 @@
 
 ## Getting started with local development
 
-1. [Install Ruby using a version manager](https://mac.install.guide/ruby/12). The repo has been tested with `ruby-3.3.0` and platform `arm64-darwin-20`.
+1. [Install Ruby using the `chruby` version manager](https://mac.install.guide/ruby/12). The repo has been tested with platform `arm64-darwin-20`.
 2. Install gems.
     ```bash
     bundle install
