@@ -2,6 +2,7 @@ name: ci
 
 on:
   push:
+  pull_request:
   schedule:
     - cron: '0 0 * * 1' # Every Monday at 00:00 UTC (9 AM JST)
 
